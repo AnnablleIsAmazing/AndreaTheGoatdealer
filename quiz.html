@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>🐐Andrea the goatdeaLer🐐</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="yes">
+		<h3>A website made for</h3>
+		<h1 style="font-size: xxx-large;">Andrea the goatdealer</h1>
+	</div>
+
+	<h1>A very Accurate IQ quiz</h1>
+
+	<p>
+
+	<form class="quiz">
+
+		<p><b>	
+
+			Question 1.
+
+		<br>What is your name?<br></b>
+		<blockquote>
+        <input type="radio" name="IQ" value="200">Annbelle<br>
+        <input type="radio" name="IQ" value="0">Jorgi<br>
+		<input type="radio" name="IQ" value="-∞">Banana<br>
+		<input type="radio" name="IQ" value="∞">Andrea the goatdealer<br>
+		<input type="radio" name="IQ" value="100">Someone else<br>
+		</blockquote>
+		<p><b><hr>
+
+			Question 2.
+
+		<br>8÷2(2+2)=...<br></b>
+		<blockquote>
+		<input type="radio">1<br>
+		<input type="radio">8<br>
+		<input type="radio">0<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 3.
+
+		<br>If 1=3 2=3 3=5 4=4 5=4 Then, 6=? <br></b>
+		<blockquote>
+		<input type="radio">7<br>
+		<input type="radio">3<br>
+		<input type="radio">5<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 4.
+
+		<br>Which Disney Princess has the least amount of time on screen<br></b>
+		<blockquote>
+		<input type="radio" >Aurora<br>
+		<input type="radio" >Belle<br>
+		<input type="radio" >Tiana<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 5.
+
+		<br>Two people can make two bicycles in 2 hours. How many people are required to make 12 bicycles in 6 hours?<br></b>
+		<blockquote>
+		<input type="radio">4<br>
+		<input type="radio">6<br>
+		<input type="radio">24<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 6.
+
+		<br>I am an odd number. Take away one letter and I become even. What number am I?<br></b>
+		<blockquote>
+		<input type="text"><br>
+		</blockquote>
+
+		<p><b>
+
+			Question 7.
+
+		<br>What Was The Ice Cream Cone Invented For?<br></b>
+		<blockquote>
+		<input type="radio">To hold berries<br>
+		<input type="radio">To hold flowers<br>
+		<input type="radio">For nothing, it was an accident.<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 8.
+
+		<br>Which number should come next in the pattern? 37, 34, 31, 28
+		<br></b>
+		<blockquote>
+		<input type="radio">25<br>
+		<input type="radio">19<br>
+		<input type="radio">36<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 9.
+
+		<br>What does the word karaoke literally mean?<br></b>
+		<blockquote>
+		<input type="radio">Lonely song<br>
+		<input type="radio">Missing accent<br>
+		<input type="radio">Empty orchestra<br>
+		</blockquote>
+
+		<p><b><hr>
+
+			Question 10.
+
+		<br>You are in a dark room with a candle, a wood stove, and a gas lamp. If you only have one match, what do you light first?
+		<br></b>
+		<blockquote>
+		<input type="text">
+		</blockquote>
+	</form>
+		<p><b>
+
+			<button type="button" onclick="displayRadioValue()" style="text-align: center;">
+				Submit
+			</button>
+	<p>
+
+		<div id="result" style="text-align: center; font-size:xx-large;"></div>
+
+	<script>
+        function displayRadioValue() {
+            var ele = document.getElementsByName('IQ');
+              
+            for(i = 0; i < ele.length; i++) {
+                if(ele[i].checked)
+                document.getElementById("result").innerHTML
+                        = "IQ: "+ele[i].value;
+            }
+        }
+    </script>
+    <a href="index.html">Back to home page</a>
+</body>
+
+
+</html>
+

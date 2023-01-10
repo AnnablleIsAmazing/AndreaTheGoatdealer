@@ -1,0 +1,60 @@
+
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+  font-family:  'Trebuchet MS';
+  color: #2E2D4D;
+  margin: 0;
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Verdana';
+}
+
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Tahoma';
+  margin-top: 0;
+}
+
+
+.yes{
+  background-color: #FAF3DD;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.test{
+  margin-left: 20%;
+}
+
+.quiz{padding-left: 30px;}
+
+.myButton {
+	background-color:#7d8ec4;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#2e2d4d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
